@@ -1,31 +1,32 @@
 .idea
 # From https://github.com/github/gitignore/blob/master/Gradle.gitignore
-.gradle
-/build/
+/cmake-build-debug/
+### C++ template
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# Ignore Gradle GUI config
-gradle-app.setting
+# Precompiled Headers
+*.gch
+*.pch
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
 
-# Cache of project
-.gradletasknamecache
+# Fortran module files
+*.mod
 
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
-
-
-# From https://github.com/github/gitignore/blob/master/Java.gitignore
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-
+# Executables
+*.exe
+*.out
+*.app
