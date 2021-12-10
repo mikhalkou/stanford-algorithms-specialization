@@ -1,1 +1,1 @@
-add_executable(app main.cpp)
+add_subdirectory(course1)
