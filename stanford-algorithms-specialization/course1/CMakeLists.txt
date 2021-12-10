@@ -1,0 +1,5 @@
+add_library(week1_integer_multiplication week1.cpp)
+target_link_libraries(week1_integer_multiplication gmp gmpxx)
+
+add_executable(week1_test_run week1.test.cpp)
+target_link_libraries(week1_test_run week1_integer_multiplication)
